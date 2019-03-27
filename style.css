@@ -1,0 +1,44 @@
+h1, p {
+  font-family: Lato;
+}
+
+.outer {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+  background-color: #01257D;
+}
+
+.wrapper {  
+  background-color: #01257D;
+  color: white;
+}
+
+.item {
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.block {
+  opacity: 0.75;
+  height: 80px;
+  width: 300px;
+  position: absolute;
+  pointer-events:none;
+}
+
+.block.up{  
+  top: 0;
+  left: 0;
+  background-color: #01257D;
+  border-bottom: 1px solid black;
+}
+
+.block.down{
+  top: 120px;
+  left: 0;
+  background-color: #01257D;
+  border-top: 1px solid black;
+}
